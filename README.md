@@ -25,14 +25,14 @@ $ pod try GlitchLabel
 
 ## Requirements
 * iOS 8.0+
-* Swift 3
-* Xcode 8
+* Swift 5
+* Xcode 10.2
 
 ## Installation
 * **CocoaPods**
   ```ruby
   use_frameworks!
-  pod "GlitchLabel", "~> 2.0.0"
+  pod "GlitchLabel", "~> 2.0.1"
   ```
 
 * **Carthage**
@@ -72,7 +72,7 @@ view.addSubview(glitchLabel)
 
 ### White screen
 ```swift
-glitchLabel.blendMode = .Multiply
+glitchLabel.blendMode = .multiply
 ```
 <img src="https://github.com/kciter/GlitchLabel/raw/master/Images/whitescreen.gif" alt="White screen">
 
